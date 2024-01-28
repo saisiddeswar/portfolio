@@ -7,8 +7,7 @@
    
 }
 body{
-    color:white;
-    baground-color:black;
+    color:black;
 
 }
 .header
@@ -23,6 +22,7 @@ body{
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+    
     
 
 
@@ -58,15 +58,16 @@ body{
 }
 .navbar a:hover{
     color:rgb(255, 0, 251);
-    box-shadow: 0 0 5px rgb(255, 0, 225),0 0 25px rgb(255, 0, 225),0 0 50px rgb(255, 0, 187),0 0 100px rgb(255, 0, 225);
 }
+    
 .home
 {
     position:relative;
     width :100%;
     justify-content: space-between;
     height: 100vh;
-/*     background: url(futuristic-portfolio-business-contract-concept-vector-42112380.webp); */
+    /* background: url(futuristic-portfolio-business-contract-concept-vector-42112380.webp); */
+    background-color: black;
     background-size: cover;
     display: flex;
     align-items: center;
@@ -120,9 +121,9 @@ body{
     color: rgb(235, 234, 235);
     text-decoration: none;
     margin: 30px 15px 30px 0;
-    animation-delay: 2s;
+    animation-delay: calc(.2s*val("--i"));
     animation: s 3s ease forwards;
-    box-shadow: 0 0 20px rgb(179, 0, 255);
+    
 }
 .home-sci a:hover{
     background: rgb(13, 114, 214);
@@ -147,6 +148,10 @@ body{
 .btn-box:hover
 {
     box-shadow: 0 0 5px rgb(255, 0, 225),0 0 25px cyan,0 0 50px rgb(255, 0, 187),0 0 100px cyan;
+}
+.about-img
+{
+    background: url(WhatsApp\ Image\ 2024-01-22\ at\ 00.06.13_15135a44.jpg);
 }
 @keyframes sr {
     0%{
